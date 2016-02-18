@@ -1,8 +1,6 @@
 # Data Filtering and Anomaly Detection for Extreme Scale Systems
 
-This project is dedicated to designing and developing an extensive software infrastructure to provide online system monitoring, diagnosing, and predicting for large-scale systems. The goal is to enhance existing resilience technologies as well as to facilitate new resilience techniques. There are two components included in this repository: (1) data filtering, which includes both java implementation (needs to be run with Weka library) and matlab implementation; (2) anomaly detection, which includes both C+MPI implementation and matlab implementation.
-
-***Note*** If you want to use the code or data in this repository, please cite following papers:
+This project is dedicated to designing and developing an extensive software infrastructure to provide online system monitoring, diagnosing, and predicting for large-scale systems. The goal is to enhance existing resilience technologies as well as to facilitate new resilience techniques. There are two components included in this repository: (1) data filtering, which includes both java implementation (needs to be run with Weka library) and matlab implementation; (2) anomaly detection, which includes both C+MPI implementation and matlab implementation. If you use the code or data in this repository, please cite the following papers:
 
 Data Filtering
 
