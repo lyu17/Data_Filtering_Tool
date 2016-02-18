@@ -1,16 +1,13 @@
-# Online System Monitoring, Diagnosing,and Predicting for Large-Scale Computing
-This project is dedicated to designing and developing an extensive software infrastructure to provide online system monitoring, diagnosing, and predicting for large-scale systems. The goal is to enhance existing resilience technologies as well as to facilitate new resilience techniques. Our major research tasks include effective log preprocessing, online failure prediction, automated anomaly diagnosis, and reliability-aware modeling. The work was selected for the Top-10 Data Mining Case Studies at the 10th ICDM. The team also won "The Cray Log Analysis Contest" at the First USENIX Workshop on the Analysis of System Logs (WASL'08), which was co-located with the 8th USENIX Symposium on Operating Systems Design and Implementation (OSDI'08), December 8-10, 2008.
+# Data Filtering and Anomaly Detection for Extreme Scale Systems
 
-Members:
-Zhiling Lan (faculty),
-Li Yu (Ph.D. student),
-Sean Wallace (Ph.D. student),
-Eduardo Berrocal (Ph.D. student),
-Ziming Zheng (Ph.D. graduated in 2012)
+This project is dedicated to designing and developing an extensive software infrastructure to provide online system monitoring, diagnosing, and predicting for large-scale systems. The goal is to enhance existing resilience technologies as well as to facilitate new resilience techniques. There are two components included in this repository: (1) data filtering, which includes both java implementation (needs to be run with Weka library) and matlab implementation; (2) anomaly detection, which includes both C+MPI implementation and matlab implementation.
 
-Collaborators:
-Ann Gentile (Sandia Lab),
-Jim Brandt (Sandia Lab),
-Susan Coghlan (Argonne National Lab),
-Rajeev Thakur (Argonne National Lab),
-Terry Jones (Oak Ridge National Lab)
+***Note*** If you want to use the code or data in this repository, please cite following papers:
+
+Data Filtering
+
+Li Yu, Ziming Zheng, Zhiling Lan, Terry Jones, James Brandt, and Ann Gentile, "Filtering Log Data: Finding the needles in the Haystack", IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), 2012. 
+
+Anomaly Detection
+
+Li Yu and Zhiling Lan, "A Scalable, Non-Parametric Anomaly Detection Method for Large Scale Computing", IEEE Transactions on Parallel and Distributed Systems (TPDS), 2015. 
